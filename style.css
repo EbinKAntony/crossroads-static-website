@@ -1,0 +1,42 @@
+.bg-black{
+    background-color: black;
+    font-family: 'Notable', sans-serif;
+}
+.about-section p{
+    font-size:16px ; line-height:28px ;
+}
+.about-section h3{
+    font-size: 40px;
+}
+.bd-example{
+   font-size: 24px;
+}
+.service-box h4{
+    font-size: 24px;
+}
+.contact-section{
+    background-image: url(crossroads/photo-of-person-typing-on-computer-keyboard-735911.jpg); background-size: cover; background-repeat: no-repeat;
+}
+.address-box{
+    font-size: 16px;line-height:2;
+}
+.contact-box .form-control{
+    height: 50px;
+}
+.contact-box textarea.form-control {
+    height: 150px;
+}
+.logo-img{
+    width: 225px;
+    height: 75px;
+}
+.cr{
+    color: red;
+}
+
+
+@media(max-width:767px){
+    .header-section .navbar-brand img{
+        width:200px;
+    }
+}
